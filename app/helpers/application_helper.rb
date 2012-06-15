@@ -1,5 +1,6 @@
 module ApplicationHelper
   
+  #Logo helper method
   def logo
     	logo = image_tag("logo.png", :alt => "Sample App", :class => "round")
   end
